@@ -66,7 +66,7 @@
       }
     }
     
-    // Show lives
+    // Show lives //
      comments = function () {
       showLives.innerHTML = lives + " lives";
       if (lives < 1) {
@@ -79,14 +79,14 @@
       }
     }
   
-       // Animate man
+       // Animate Hangman //
     var animate = function () {
       var drawMe = lives ;
       drawArray[drawMe]();
     }
   
     
-     // Hangman
+     // Hangman //
 
      
     canvas =  function(){
