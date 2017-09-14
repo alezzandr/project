@@ -25,7 +25,7 @@
     var word ;              // Selected word
     var guess ;             // Geuss
     var geusses = [ ];      // Stored geusses
-    var lives ;             // Lives
+    
     var counter ;           // Count correct geusses
     var space;              // Number of spaces in word '-'
   
@@ -68,6 +68,7 @@
     }
     
     // Show lives //
+    var lives ;             
      comments = function () {
       showLives.innerHTML = lives + " lives";
       if (lives < 1) {
@@ -229,7 +230,7 @@
   
      // Reset //
   
-    document.getElementById('reset').onclick = function() {
+      document.getElementById('reset').onclick = function() {
       correct.parentNode.removeChild(correct);
       letters.parentNode.removeChild(letters);
       showClue.innerHTML = "Here I am";
