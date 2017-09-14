@@ -29,13 +29,13 @@
     var counter ;           // Count correct geusses
     var space;              // Number of spaces in word '-'
   
-    // Get elements
+    // Get elements //
     var showLives = document.getElementById("mylives");
     var showCatagory = document.getElementById("scatagory");
     var getHint = document.getElementById("hint");
     var showClue = document.getElementById("clue"); 
     
-    // Select Catagory
+    // Select Catagory //
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
         catagoryName.innerHTML = "The Chosen Category Is Premier League Football Teams";
@@ -44,7 +44,7 @@
       } 
     }
   
-    // Create geusses ul
+    // Create geusses ul //
      result = function () {
      wordHolder = document.getElementById('hold');
      correct = document.createElement('ul');
