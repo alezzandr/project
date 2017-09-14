@@ -1,0 +1,146 @@
+body {
+    background:rgba(86, 86, 86, 0.76);
+    height: 100%;
+    text-align: center;
+  }
+  
+  
+  canvas {
+    border: orangered solid 5px;
+    padding: 80px;
+    position:absolute;
+    left: 950px;
+    top: 475px;
+    background: white;;
+
+  }
+  
+  h {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: orangered;
+    font-family: fantasy;
+    font-weight: bolder;
+
+  }
+
+  p{
+      font-size: 1.0em;
+      font-family: fantasy;
+      font-weight: bold;
+      color: white;
+
+    }
+  
+  p1 {
+    font-size: 2.0em;
+    font-family: fantasy;
+
+  }
+
+  p2 {
+    position: relative;
+    left: 200px;
+    top: 110px;
+    color: red;
+    border-radius: 5px;
+    border: solid 1px orangered;
+    font-weight: bold;
+    font-family: fantasy;
+    width: 100px;
+    background:white;
+
+  }
+  
+    #alphabet {
+    margin: 15px auto;
+    padding: initial;
+    max-width: 1400px;
+  
+  }
+  
+  #alphabet:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #alphabet li {
+    float: left;
+    margin: 0 10px 10px 0;
+    list-style: none;
+    width: 95px;
+    height: 95px;
+    padding-top: 10px;
+    background: white;
+    color: orangered;
+    font-size: 65px;
+    cursor: wait;
+    border-radius: 5px;
+    border: solid 1px orangered;
+    font-weight: bold;
+    font-family: fantasy;
+  
+  }
+  
+  #alphabet li:hover {
+    background: #B47474;
+    border: solid 1px white;
+    color: white;
+  
+  }
+  
+  #my-word {
+    margin: 0 10px 10px 0;
+    background: white;
+    display: block;
+    padding: initial;
+    display: block;
+    color: orangered;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 1px;
+    border: solid 2px orangered;
+    
+  }
+  
+  #my-word li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.6em;
+  }
+  
+  .active {
+    opacity: 0.1;
+  }
+  .active:hover {
+    opacity: 0.9;
+  }
+  
+  #mylives {
+    font-size: 1.6em;
+    text-align: center;
+    display: block;
+  }
+  
+  button {
+    border-radius: 5px;
+    background: #fff;
+    color: orangered;
+    border: solid 5px orangered;
+    cursor:wait;
+    font-size: 2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+  }
+  button:hover {
+    background: #B47474;
+    border: solid 5px #fff;
+    color: #fff;
+  }
+  
+  
