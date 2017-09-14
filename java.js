@@ -160,7 +160,7 @@
     drawArray = [rightLeg, leftLeg, rightArm, leftArm,  torso,  head, frame4, frame3, frame2, frame1]; 
   
   
-    // OnClick Function
+    // OnClick Function//
      check = function () {
       list.onclick = function () {
         var geuss = (this.innerHTML);
@@ -184,7 +184,7 @@
     }
     
       
-    // Play
+    // Play//
     play = function () {
       categories = [
           ["everton", "liverpool", "swansea", "chelsea", "hull", "manchester-city", "newcastle-united"],
@@ -210,7 +210,7 @@
   
     play();
     
-    // Hint
+    // Hint //
   
       hint.onclick = function() {
   
@@ -225,7 +225,7 @@
       showClue.innerHTML = "Clue: - " +  hints [catagoryIndex][hintIndex];
     };
   
-     // Reset
+     // Reset //
   
     document.getElementById('reset').onclick = function() {
       correct.parentNode.removeChild(correct);
