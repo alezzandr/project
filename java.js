@@ -19,18 +19,13 @@
       }
     }
       
-   
+     var getHint ;          // Word getHint
     
-    var getHint ;          // Word getHint
-    
-   
-    
-  
-    // Get elements //
-    var showLives = document.getElementById("mylives");
-    var showCatagory = document.getElementById("scatagory");
-    var getHint = document.getElementById("hint");
-    var showClue = document.getElementById("clue"); 
+     // Get elements //
+     var showLives = document.getElementById("mylives");
+     var showCatagory = document.getElementById("scatagory");
+     var getHint = document.getElementById("hint");
+     var showClue = document.getElementById("clue"); 
     
     // Select Catagory //
     var chosenCategory;    // Selected catagory //
