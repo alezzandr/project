@@ -44,6 +44,7 @@
     }
   
     // Create geusses ul //
+    var guess ;             // Geuss //
      result = function () {
      wordHolder = document.getElementById('hold');
      correct = document.createElement('ul');
