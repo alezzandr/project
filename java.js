@@ -22,9 +22,8 @@
    
     
     var getHint ;          // Word getHint
-    var word ;              // Selected word
-    var guess ;             // Geuss
-    var geusses = [ ];      // Stored geusses
+    
+   
     
   
     // Get elements //
@@ -71,7 +70,7 @@
     var counter ;           // Count correct geusses
     var space;              // Number of spaces in word '-'            
      comments = function () {
-      showLives.innerHTML = lives + " lives";
+      showLives.innerHTML = lives + "lives";
       if (lives < 1) {
         showLives.innerHTML = "You're an idiot";
       }
@@ -164,6 +163,7 @@
   
   
     // OnClick Function//
+    var geusses = [ ];      // Stored geusses //
      check = function () {
       list.onclick = function () {
         var geuss = (this.innerHTML);
