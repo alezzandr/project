@@ -19,8 +19,8 @@
       }
     }
       
-    var categories;         // Array of topics
-    var chosenCategory;     // Selected catagory
+   
+    
     var getHint ;          // Word getHint
     var word ;              // Selected word
     var guess ;             // Geuss
@@ -36,6 +36,7 @@
     var showClue = document.getElementById("clue"); 
     
     // Select Catagory //
+    var chosenCategory;    // Selected catagory //
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
         catagoryName.innerHTML = "The Chosen Category Is Premier League Football Teams";
@@ -185,13 +186,14 @@
     
       
     // Play//
+    var categories; 
     play = function () {
       categories = [
           ["everton", "liverpool", "swansea", "chelsea", "hull", "manchester-city", "newcastle-united"],
           ["alien", "dirty-harry", "gladiator", "finding-nemo", "jaws"],
           
       ];
-  
+      
       chosenCategory = categories[Math.floor(Math.random() * categories.length)];
       word = chosenCategory[Math.floor(Math.random() * chosenCategory.length)];
       word = word.replace(/\s/g, "-");
