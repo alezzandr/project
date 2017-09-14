@@ -26,8 +26,6 @@
     var guess ;             // Geuss
     var geusses = [ ];      // Stored geusses
     
-    var counter ;           // Count correct geusses
-    var space;              // Number of spaces in word '-'
   
     // Get elements //
     var showLives = document.getElementById("mylives");
@@ -68,7 +66,9 @@
     }
     
     // Show lives //
-    var lives ;             
+    var lives ; 
+    var counter ;           // Count correct geusses
+    var space;              // Number of spaces in word '-'            
      comments = function () {
       showLives.innerHTML = lives + " lives";
       if (lives < 1) {
