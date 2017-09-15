@@ -32,9 +32,9 @@
     var chosenCategory;    // Selected catagory //
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
-        catagoryName.innerHTML = "The Chosen Category Is Premier League Football Teams";
+        catagoryName.innerHTML = "Geography";
       } else if (chosenCategory === categories[1]) {
-        catagoryName.innerHTML = "The Chosen Category Is Films";
+        catagoryName.innerHTML = "Quantum mathematics";
       } 
     }
   
@@ -187,7 +187,7 @@
     var categories; 
     play = function () {
       categories = [
-          ["everton", "liverpool", "swansea", "chelsea", "hull", "manchester-city", "newcastle-united"],
+          ["asia", "", "austin", "pacific", "hull", "manchester-city", "newcastle-united"],
           ["alien", "dirty-harry", "gladiator", "finding-nemo", "jaws"],
           
       ];
@@ -215,7 +215,7 @@
       hint.onclick = function() {
   
         hints = [
-          ["Based in Mersyside", "Based in Mersyside", "First Welsh team to reach the Premier Leauge", "Owned by A russian Billionaire", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
+          ["Largest continent in the world", "Capital of Texas", "Largest ocean in the world", "Owned by A russian Billionaire", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
           ["Science-Fiction horror film", "1971 American action film", "Historical drama", "Anamated Fish", "Giant great white shark"],
           
       ];
