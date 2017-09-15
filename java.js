@@ -87,7 +87,7 @@
   
     
      
-    // Hangman //
+    // Create a Hangman //
  
     canvas =  function(){
   
@@ -114,7 +114,6 @@
       context.lineTo($pathTox, $pathToy);
       context.stroke(); 
   }
-  
   
      frame1 = function() {
      draw (0, 150, 150, 150);
