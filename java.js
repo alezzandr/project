@@ -22,7 +22,7 @@
      
     
      // Get elements //
-     var getHint ;          // Word getHint //
+     var getHint ;         
      var showLives = document.getElementById("mylives");
      var showCatagory = document.getElementById("scatagory");
      var getHint = document.getElementById("hint");
