@@ -68,7 +68,7 @@
      comments = function () {
       showLives.innerHTML = lives + "lives";
       if (lives < 1) {
-        showLives.innerHTML = "You're an idiot";
+        showLives.innerHTML = "Maybe in the next life!";
       }
       for (var i = 0; i < geusses.length; i++) {
         if (counter + space === geusses.length) {

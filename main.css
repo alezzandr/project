@@ -4,8 +4,8 @@ body {
     text-align: center;
   }
   
-  
-  canvas {
+
+  canvas {    
     border: orangered solid 5px;
     padding: 80px;
     position:absolute;
