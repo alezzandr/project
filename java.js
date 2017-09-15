@@ -1,11 +1,11 @@
     // create alphabet//
-  
+   //array element //
     const alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
           'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
           't', 'u', 'v', 'w', 'x', 'y', 'z'];
     
 
-          // loop for alphabet //
+          // looping for alphabet //
     const buttons = function () {
       myButtons = document.getElementById('buttons');
       letters = document.createElement('ul');
@@ -30,6 +30,8 @@
      var getHint = document.getElementById("hint");
      var showClue = document.getElementById("clue"); 
     
+
+     
     // Function for chosen category //
     var chosenCategory;    
     var selectCat = function () {
@@ -65,7 +67,7 @@
     
     // Show lives - create a function for # of lives//
     var lives ; 
-    var counter ;           // Count correct geusses  //
+    var counter ;           // count correct geusses  //
     var space;              // # of spaces in word '-'  //          
      comments = function () {
       showLives.innerHTML = lives + "lives";
@@ -107,7 +109,7 @@
         context.stroke();
       }
       
-
+     // function for build using jQuery // 
     draw = function($pathFromx, $pathFromy, $pathTox, $pathToy) {
       
       context.moveTo($pathFromx, $pathFromy);
@@ -184,7 +186,8 @@
       }
     }
     
-    
+    // games //
+
     var categories; 
     play = function () {
       categories = [
@@ -226,8 +229,7 @@
       showClue.innerHTML =  hints [catagoryIndex][hintIndex];
     };
   
-     // Reset //
-  
+     //reset game//
       document.getElementById('reset').onclick = function() {
       correct.parentNode.removeChild(correct);
       letters.parentNode.removeChild(letters);
@@ -235,3 +237,5 @@
       play();
     }
   
+
+
