@@ -34,7 +34,7 @@
       if (chosenCategory === categories[0]) {
         catagoryName.innerHTML = "Geography";
       } else if (chosenCategory === categories[1]) {
-        catagoryName.innerHTML = "Quantum mathematics";
+        catagoryName.innerHTML = "Quantum Mathematics";
       } 
     }
   
@@ -187,7 +187,7 @@
     var categories; 
     play = function () {
       categories = [
-          ["asia", "", "austin", "pacific", "north-pole", "manchester-city", "newcastle-united"],
+          ["asia", "austin", "pacific", "north-pole",],
           ["alien", "dirty-harry", "gladiator", "finding-nemo", "jaws"],
           
       ];
@@ -215,8 +215,8 @@
       hint.onclick = function() {
   
         hints = [
-          ["Largest continent in the world", "Capital of Texas", "Largest ocean in the world", "Where Santa Claus lives", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
-          ["Science-Fiction horror film", "1971 American action film", "Historical drama", "Anamated Fish", "Giant great white shark"],
+          ["Largest continent in the world", "Capital of Texas", "Largest ocean in the world", "Where Santa Claus lives"],
+          ["", "1971 American action film", "Historical drama", "Anamated Fish", "Giant great white shark"],
           
       ];
   
