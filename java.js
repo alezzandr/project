@@ -29,7 +29,7 @@
      var showClue = document.getElementById("clue"); 
     
     // Select Catagory //
-    var chosenCategory;    // Selected catagory //
+    var chosenCategory;    
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
         catagoryName.innerHTML = "Geography";
