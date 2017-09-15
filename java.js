@@ -188,7 +188,7 @@
     play = function () {
       categories = [
           ["asia", "austin", "pacific", "north-pole",],
-          ["alien", "dirty-harry", "gladiator", "finding-nemo", "jaws"],
+          ["four", "subtraction", "two", "googolplex"],
           
       ];
       
@@ -216,13 +216,13 @@
   
         hints = [
           ["Largest continent in the world", "Capital of Texas", "Largest ocean in the world", "Where Santa Claus lives"],
-          ["", "1971 American action film", "Historical drama", "Anamated Fish", "Giant great white shark"],
+          ["2+2", "opposite of addition", "1+1", "Largest Number"],
           
       ];
   
       var catagoryIndex = categories.indexOf(chosenCategory);
       var hintIndex = chosenCategory.indexOf(word);
-      showClue.innerHTML = "Clue: - " +  hints [catagoryIndex][hintIndex];
+      showClue.innerHTML =  hints [catagoryIndex][hintIndex];
     };
   
      // Reset //
