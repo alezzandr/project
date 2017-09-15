@@ -159,6 +159,7 @@
   
   
     // OnClick Function//
+
     var geusses = [ ];      // Stored geusses //
      check = function () {
       list.onclick = function () {
@@ -183,7 +184,7 @@
     }
     
       
-    // Play//
+    
     var categories; 
     play = function () {
       categories = [
