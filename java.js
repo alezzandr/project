@@ -79,16 +79,16 @@
       }
     }
   
-       // Animate Hangman //
+       // Create a function for animate Hangman //
     var animate = function () {
       var drawMe = lives ;
       drawArray[drawMe]();
     }
   
     
-     // Hangman //
-
      
+    // Hangman //
+ 
     canvas =  function(){
   
       myStickman = document.getElementById("stickman");
