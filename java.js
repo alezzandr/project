@@ -4,6 +4,8 @@
           'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
           't', 'u', 'v', 'w', 'x', 'y', 'z'];
     
+
+          // loop for alphabet //
     const buttons = function () {
       myButtons = document.getElementById('buttons');
       letters = document.createElement('ul');
@@ -28,7 +30,7 @@
      var getHint = document.getElementById("hint");
      var showClue = document.getElementById("clue"); 
     
-    // Select Category //
+    // Function for chosen category //
     var chosenCategory;    
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
@@ -38,7 +40,7 @@
       } 
     }
   
-    // Create geusses ul //
+    // Create geusses function using loop //
     var guess ;            
      result = function () {
      wordHolder = document.getElementById('hold');
