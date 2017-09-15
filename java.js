@@ -63,8 +63,8 @@
     
     // Show lives //
     var lives ; 
-    var counter ;           // Count correct geusses
-    var space;              // Number of spaces in word '-'            
+    var counter ;           // Count correct geusses  //
+    var space;              // # of spaces in word '-'  //          
      comments = function () {
       showLives.innerHTML = lives + "lives";
       if (lives < 1) {
