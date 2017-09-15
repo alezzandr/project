@@ -231,8 +231,7 @@
       document.getElementById('reset').onclick = function() {
       correct.parentNode.removeChild(correct);
       letters.parentNode.removeChild(letters);
-      showClue.innerHTML = "Here I am";
-      context.clearRect(0, 0, 400, 400);
+      showClue.innerHTML = "";
       play();
     }
   
