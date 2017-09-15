@@ -28,7 +28,7 @@
      var getHint = document.getElementById("hint");
      var showClue = document.getElementById("clue"); 
     
-    // Select Catagory //
+    // Select Category //
     var chosenCategory;    
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
@@ -39,7 +39,7 @@
     }
   
     // Create geusses ul //
-    var guess ;             // Geuss //
+    var guess ;            
      result = function () {
      wordHolder = document.getElementById('hold');
      correct = document.createElement('ul');
