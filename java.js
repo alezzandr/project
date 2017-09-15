@@ -63,7 +63,7 @@
       }
     }
     
-    // Show lives //
+    // Show lives - create a function for # of lives//
     var lives ; 
     var counter ;           // Count correct geusses  //
     var space;              // # of spaces in word '-'  //          
